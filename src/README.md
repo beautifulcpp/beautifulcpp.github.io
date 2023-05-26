@@ -2,9 +2,9 @@
 home: true
 icon: home
 title: Beautiful C++
-heroImage: /head_logo.png
+heroImage: /logo.png
 heroText: Beautiful C++
-tagline: ✨每星期更新一次站点✨
+tagline: ✨C++ Done Beautifully✨
 actions:
   - text: Quick Navigation
     link: /quicknav/

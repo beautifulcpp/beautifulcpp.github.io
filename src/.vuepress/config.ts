@@ -13,9 +13,9 @@ export default defineUserConfig({
   // 多语言设置
   locales: {
     "/": {
-      lang: "zh-CN",
-      title: "C++之美",
-      description: "C++之美",
+      lang: "en-US",
+      title: "Beautiful C++",
+      description: "C++ done Beautifully",
       // 设置favicon
       head: [["link", { rel: "icon", href: "/favicon.svg" }]],
     },
@@ -32,7 +32,7 @@ export default defineUserConfig({
       //多语言支持
       locales: {
         "/": {
-          placeholder: "搜索本站",
+          placeholder: "Search",
         },
       },
       // 热键支持

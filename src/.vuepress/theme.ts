@@ -1,6 +1,6 @@
 import {hopeTheme} from "vuepress-theme-hope";
 //中文导航栏
-import {zhNavbar} from "./navbar/index.js";
+import {enNavbar} from "./navbar/index.js";
 //中文侧边栏
 import {zhSidebar} from "./sidebar/index.js";
 
@@ -11,7 +11,7 @@ export default hopeTheme({
 
     // 文章显示的默认作者
     author: {
-        name: "Mr.Tong",
+        name: "Isaac Zhou",
         url: "https://github.com/beautifulcpp",
     },
 
@@ -19,13 +19,14 @@ export default hopeTheme({
     iconAssets: "iconfont",
 
     // 网站图标
-    logo: "/site_logo.png",
+    logo: "/logo.png",
+
 
     // 导航栏上的个人仓库地址
     repo: "https://github.com/beautifulcpp",
 
     // 自定义仓库链接文字-默认从repo中自动推断为"GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
-    repoLabel: "Gitee",
+    repoLabel: "GitHub",
 
     // 是否在导航栏内显示仓库链接-默认为true
     repoDisplay: true,
@@ -69,10 +70,10 @@ export default hopeTheme({
     contributors: false,
 
     // 文章所在仓库
-    docsRepo: "https://gitee.com/oucystong/notes.git",
+    docsRepo: "https://github.com/isaaczhou/notes.git",
 
     // 文章所在分支
-    docsBranch: "master",
+    docsBranch: "main",
 
     // 文章所在目录
     docsDir: "src",
@@ -81,42 +82,42 @@ export default hopeTheme({
     locales: {
         "/": {
             // 导航栏
-            navbar: zhNavbar,
+            navbar: enNavbar,
 
             // 侧边栏
             sidebar: zhSidebar,
 
             // 全局设置页脚信息
-            footer: "小佟の学习笔记",
+            footer: "BeautifulC++",
 
             // 显示页脚
             displayFooter: false,
 
             // 页面配置信息
             metaLocales: {
-                editLink: "在【Gitee】上编辑此页",
+                editLink: "Edit on Github",
             },
         },
     },
     // 博客配置
     blog: {
         // 头像
-        avatar: "/blog_head_logo.gif",
+        avatar: "/logo.png",
         // 名称
-        name: "Mr.Tong",
+        name: "Beautiful C++",
         // 是否是圆形头像
         roundAvatar: false,
         // 个人描述
-        description: "你是无意穿堂风 偏偏孤倨引山洪",
+        description: "C++ done beautifully",
         // 社交媒体
         medias: {
-            Gitee: "https://gitee.com/oucystong",
+            Gitee: "https://github.com/beautifulcpp",
         },
         // 博客的侧边栏设置
         sidebarDisplay: "mobile",
         // 每页展示的文章数量
         articlePerPage: 7,
-        timeline: "小佟の时光轴🍃",
+        timeline: "Timeline🍃",
     },
 
     plugins: {
