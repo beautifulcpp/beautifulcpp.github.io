@@ -1,19 +1,19 @@
 ---
 home: true
 icon: home
-title: 个人主页
+title: Beautiful C++
 heroImage: /head_logo.png
-heroText: 小佟の学习笔记
+heroText: Beautiful C++
 tagline: ✨每星期更新一次站点✨
 actions:
-  - text: 【快速导航】
+  - text: Quick Navigation
     link: /quicknav/
     type: primary
-  - text: 【代码笔记】
+  - text: Code Notes
     link: /codenotes/
-  - text: 【浮生杂记】
+  - text: Blogs
     link: /floatinglife/
-  - text: 【开源项目】
+  - text: Projects
     link: /projects/
 features:
   - title: 抖音
