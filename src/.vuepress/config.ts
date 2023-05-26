@@ -17,7 +17,7 @@ export default defineUserConfig({
       title: "Beautiful C++",
       description: "C++ done Beautifully",
       // 设置favicon
-      head: [["link", { rel: "icon", href: "/favicon.svg" }]],
+      head: [["link", { rel: "icon", href: "/logo.svg" }]],
     },
   },
   // 主题设置

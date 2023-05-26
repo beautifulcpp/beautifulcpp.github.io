@@ -3,6 +3,7 @@ import {hopeTheme} from "vuepress-theme-hope";
 import {enNavbar} from "./navbar/index.js";
 //中文侧边栏
 import {zhSidebar} from "./sidebar/index.js";
+import {googleAnalyticsPlugin} from "@vuepress/plugin-google-analytics";
 
 // 主题设置
 export default hopeTheme({
@@ -48,12 +49,12 @@ export default hopeTheme({
     breadcrumbIcon: true,
 
     // 用户可以自定义的多主题色
-    themeColor: {
-        yellow: "#FEC201",
-        pink: "#EF699F",
-        purple: "#684CCE",
-        orange: "#FF8C3D",
-    },
+    // themeColor: {
+    //     yellow: "#FEC201",
+    //     pink: "#EF699F",
+    //     purple: "#684CCE",
+    //     orange: "#FF8C3D",
+    // },
     // 暗黑模式切换-在深色模式和浅色模式中切换
     darkmode: "toggle",
     // 全屏按钮
@@ -194,5 +195,7 @@ export default hopeTheme({
         git: true,
         // 关闭sitemap插件
         sitemap: false,
+        //Google Analytics
+        googleAnalyticsPlugin: {id: "G-W9K3EHFZFK",},
     },
 });
